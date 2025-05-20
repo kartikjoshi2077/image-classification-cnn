@@ -1,0 +1,26 @@
+Dataset: cifar10
+Model: 5-Block ResNet with 3x3 kernels
+Training time: 4.44 minutes
+
+Test accuracy: 0.1150
+Precision (macro): 0.0222
+Recall (macro): 0.1150
+F1 Score (macro): 0.0371
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    airplane       0.14      0.81      0.24      1000
+  automobile       0.08      0.34      0.13      1000
+        bird       0.00      0.00      0.00      1000
+         cat       0.00      0.00      0.00      1000
+        deer       0.00      0.00      0.00      1000
+         dog       0.00      0.00      0.00      1000
+        frog       0.00      0.00      0.00      1000
+       horse       0.00      0.00      0.00      1000
+        ship       0.00      0.00      0.00      1000
+       truck       0.00      0.00      0.00      1000
+
+    accuracy                           0.12     10000
+   macro avg       0.02      0.12      0.04     10000
+weighted avg       0.02      0.12      0.04     10000
